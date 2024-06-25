@@ -5,6 +5,7 @@ import './App.css'
 import PostList from './Components/PostList'
 import PostForm from './Components/PostForm'
 import ClassCounter from './Components/ClassCounter'
+import HookCounter from './Components/HookCounter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <div>
       {/* <PostList/> */}
       {/* <PostForm/> */}
-      <ClassCounter/>
+      {/* <ClassCounter/> */}
+      <HookCounter/>
     </div>
   )
 }
