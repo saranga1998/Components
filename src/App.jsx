@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PostList from './Components/PostList'
 import PostForm from './Components/PostForm'
+import ClassCounter from './Components/ClassCounter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <div>
       {/* <PostList/> */}
-      <PostForm/>
+      {/* <PostForm/> */}
+      <ClassCounter/>
     </div>
   )
 }
