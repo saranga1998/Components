@@ -7,6 +7,8 @@ import PostForm from './Components/PostForm'
 import ClassCounter from './Components/ClassCounter'
 import HookCounter from './Components/HookCounter'
 import HookCounterTwo from './Components/HookCounterTwo'
+import HookCounterThere from './Components/HookCounterThere'
+import HookCounterFour from './Components/HookCounterFour'
 
 function App() {
   
@@ -20,7 +22,9 @@ function App() {
       {/* <PostForm/> */}
       {/* <ClassCounter/> */}
       {/* <HookCounter/> */}
-      <HookCounterTwo/>
+      {/* <HookCounterTwo/> */}
+      {/* <HookCounterThere/> */}
+      <HookCounterFour/>
     </div>
   )
 }
