@@ -5,15 +5,22 @@ import './App.css'
 import PostList from './Components/PostList'
 import PostForm from './Components/PostForm'
 import ClassCounter from './Components/ClassCounter'
+import HookCounter from './Components/HookCounter'
+import HookCounterTwo from './Components/HookCounterTwo'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+
+  
+
 
   return (
     <div>
       {/* <PostList/> */}
       {/* <PostForm/> */}
-      <ClassCounter/>
+      {/* <ClassCounter/> */}
+      {/* <HookCounter/> */}
+      <HookCounterTwo/>
     </div>
   )
 }
