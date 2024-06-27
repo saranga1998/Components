@@ -11,6 +11,7 @@ import HookCounterThere from './Components/HookCounterThere'
 import HookCounterFour from './Components/HookCounterFour'
 import UFhookCounter from './Components/UseEffect/UFhookCounter'
 import HookMouse from './Components/UseEffect/HookMouse'
+import MouseContainer from './Components/UseEffect/MouseContainer'
 
 function App() {
   
@@ -28,7 +29,8 @@ function App() {
       {/* <HookCounterThere/> */}
       {/* <HookCounterFour/> */}
       {/* <UFhookCounter/> */}
-      <HookMouse/>
+      {/* <HookMouse/> */}
+      <MouseContainer/>
     </div>
   )
 }
