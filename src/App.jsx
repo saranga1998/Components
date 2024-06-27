@@ -12,6 +12,8 @@ import HookCounterFour from './Components/HookCounterFour'
 import UFhookCounter from './Components/UseEffect/UFhookCounter'
 import HookMouse from './Components/UseEffect/HookMouse'
 import MouseContainer from './Components/UseEffect/MouseContainer'
+import IntarvalHookCounter from './Components/UseEffect/IntarvalHookCounter'
+import DataFetching from './Components/Fetch/DataFetching'
 
 function App() {
   
@@ -30,7 +32,9 @@ function App() {
       {/* <HookCounterFour/> */}
       {/* <UFhookCounter/> */}
       {/* <HookMouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      {/* <IntarvalHookCounter/> */}
+      <DataFetching/>
     </div>
   )
 }
