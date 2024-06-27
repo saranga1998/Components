@@ -10,6 +10,7 @@ import HookCounterTwo from './Components/HookCounterTwo'
 import HookCounterThere from './Components/HookCounterThere'
 import HookCounterFour from './Components/HookCounterFour'
 import UFhookCounter from './Components/UseEffect/UFhookCounter'
+import HookMouse from './Components/UseEffect/HookMouse'
 
 function App() {
   
@@ -26,7 +27,8 @@ function App() {
       {/* <HookCounterTwo/> */}
       {/* <HookCounterThere/> */}
       {/* <HookCounterFour/> */}
-      <UFhookCounter/>
+      {/* <UFhookCounter/> */}
+      <HookMouse/>
     </div>
   )
 }
