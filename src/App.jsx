@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -14,13 +14,13 @@ import HookMouse from './Components/UseEffect/HookMouse'
 import MouseContainer from './Components/UseEffect/MouseContainer'
 import IntarvalHookCounter from './Components/UseEffect/IntarvalHookCounter'
 import DataFetching from './Components/Fetch/DataFetching'
+import CompoC from './Components/UseContext/CompoC'
+
+export const UserContext = React.createContext()
+export const RoleContext = React.createContext()
 
 function App() {
   
-
-  
-
-
   return (
     <div>
       {/* <PostList/> */}
@@ -34,7 +34,15 @@ function App() {
       {/* <HookMouse/> */}
       {/* <MouseContainer/> */}
       {/* <IntarvalHookCounter/> */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+
+      <UserContext.Provider value={'Saranga'}>
+        <RoleContext.Provider value={'Developer'}>
+          <CompoC/>
+        </RoleContext.Provider>
+        
+      </UserContext.Provider>
+      
     </div>
   )
 }
