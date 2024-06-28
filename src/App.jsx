@@ -16,6 +16,8 @@ import IntarvalHookCounter from './Components/UseEffect/IntarvalHookCounter'
 import DataFetching from './Components/Fetch/DataFetching'
 import CompoC from './Components/UseContext/CompoC'
 import ReduserCount from './Components/Reduser/ReduserCount'
+import ReduserCountTwo from './Components/Reduser/ReduserCountTwo'
+import ReduserCountThree from './Components/Reduser/ReduserCountThree'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -44,8 +46,9 @@ function App() {
         
       </UserContext.Provider> */}
 
-      <ReduserCount/>
-      
+      {/* <ReduserCount/> */}
+      <ReduserCountTwo/>
+      <ReduserCountThree/>
     </div>
   )
 }
