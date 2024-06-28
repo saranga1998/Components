@@ -15,6 +15,7 @@ import MouseContainer from './Components/UseEffect/MouseContainer'
 import IntarvalHookCounter from './Components/UseEffect/IntarvalHookCounter'
 import DataFetching from './Components/Fetch/DataFetching'
 import CompoC from './Components/UseContext/CompoC'
+import ReduserCount from './Components/Reduser/ReduserCount'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -36,12 +37,14 @@ function App() {
       {/* <IntarvalHookCounter/> */}
       {/* <DataFetching/> */}
 
-      <UserContext.Provider value={'Saranga'}>
+      {/* <UserContext.Provider value={'Saranga'}>
         <RoleContext.Provider value={'Developer'}>
           <CompoC/>
         </RoleContext.Provider>
         
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <ReduserCount/>
       
     </div>
   )
