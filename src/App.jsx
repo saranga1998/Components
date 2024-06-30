@@ -21,6 +21,7 @@ import ReduserCountThree from './Components/Reduser/ReduserCountThree'
 import ComponentA from './Components/UDandUC/ComponentA'
 import ComponentB from './Components/UDandUC/ComponentB'
 import ComponentD from './Components/UDandUC/ComponentD'
+import DataFetchingOne from './Components/FDandUR/DataFetchingOne'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -76,12 +77,14 @@ function App() {
       {/* <ReduserCount/> */}
       {/* <ReduserCountTwo/>
       <ReduserCountThree/> */}
-      <CountContext.Provider value={{countState:count,countDispatch:dispatch}}>
+      {/* <CountContext.Provider value={{countState:count,countDispatch:dispatch}}>
         <h1>{count}</h1>
         <ComponentA/>
          <ComponentB/>
         <ComponentD/> 
-      </CountContext.Provider>
+      </CountContext.Provider> */}
+
+      <DataFetchingOne/>
       
     </div>
   )
