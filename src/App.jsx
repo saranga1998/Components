@@ -23,6 +23,7 @@ import ComponentB from './Components/UDandUC/ComponentB'
 import ComponentD from './Components/UDandUC/ComponentD'
 import DataFetchingOne from './Components/FDandUR/DataFetchingOne'
 import DataFetchingTwo from './Components/FDandUR/DataFetchingTwo'
+import ParentHook from './Components/CallbackHook/ParentHook'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -30,7 +31,7 @@ export const CountContext = React.createContext()
 
 const initialCount = 0
 const reduser = (state, action) => {
-  
+
   switch (action) {
 
     case 'increment':
@@ -50,7 +51,7 @@ const reduser = (state, action) => {
 }
 
 function App() {
-  
+
   const[count,dispatch] = useReducer(reduser,initialCount)
 
   return (
@@ -72,7 +73,7 @@ function App() {
         <RoleContext.Provider value={'Developer'}>
           <CompoC/>
         </RoleContext.Provider>
-        
+
       </UserContext.Provider> */}
 
       {/* <ReduserCount/> */}
@@ -82,11 +83,12 @@ function App() {
         <h1>{count}</h1>
         <ComponentA/>
          <ComponentB/>
-        <ComponentD/> 
+        <ComponentD/>
       </CountContext.Provider> */}
 
       {/* <DataFetchingOne/> */}
-      <DataFetchingTwo/>
+      {/* <DataFetchingTwo/> */}
+      <ParentHook/>
     </div>
   )
 }
