@@ -24,6 +24,7 @@ import ComponentD from './Components/UDandUC/ComponentD'
 import DataFetchingOne from './Components/FDandUR/DataFetchingOne'
 import DataFetchingTwo from './Components/FDandUR/DataFetchingTwo'
 import ParentHook from './Components/CallbackHook/ParentHook'
+import MemoCounter from './Components/MemoHook/MemoCounter'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -88,7 +89,8 @@ function App() {
 
       {/* <DataFetchingOne/> */}
       {/* <DataFetchingTwo/> */}
-      <ParentHook/>
+      {/* <ParentHook/> */}
+      <MemoCounter/>
     </div>
   )
 }
