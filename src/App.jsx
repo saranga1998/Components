@@ -26,6 +26,7 @@ import DataFetchingTwo from './Components/FDandUR/DataFetchingTwo'
 import ParentHook from './Components/CallbackHook/ParentHook'
 import MemoCounter from './Components/MemoHook/MemoCounter'
 import FocusInput from './Components/UseRefhook/FocusInput'
+import ClassCounterRef from './Components/UseRefhook/ClassCounterRef'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -92,7 +93,8 @@ function App() {
       {/* <DataFetchingTwo/> */}
       {/* <ParentHook/> */}
       {/* <MemoCounter/> */}
-      <FocusInput/>
+      {/* <FocusInput/> */}
+      <ClassCounterRef/>
     </div>
   )
 }
