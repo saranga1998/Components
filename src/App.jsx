@@ -5,7 +5,7 @@ import './App.css'
 import PostList from './Components/PostList'
 import PostForm from './Components/PostForm'
 import ClassCounter from './Components/ClassCounter'
-import HookCounter from './Components/HookCounter'
+//import HookCounter from './Components/HookCounter'
 import HookCounterTwo from './Components/HookCounterTwo'
 import HookCounterThere from './Components/HookCounterThere'
 import HookCounterFour from './Components/HookCounterFour'
@@ -27,6 +27,9 @@ import ParentHook from './Components/CallbackHook/ParentHook'
 import MemoCounter from './Components/MemoHook/MemoCounter'
 import FocusInput from './Components/UseRefhook/FocusInput'
 import ClassCounterRef from './Components/UseRefhook/ClassCounterRef'
+import HookRefCounter from './Components/UseRefhook/HookRefCounter'
+import DocTitleOne from './Components/CustomHook/DocTitleOne'
+import DocTitleTwo from './Components/CustomHook/DocTitleTwo'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -94,7 +97,11 @@ function App() {
       {/* <ParentHook/> */}
       {/* <MemoCounter/> */}
       {/* <FocusInput/> */}
-      <ClassCounterRef/>
+      {/* <ClassCounterRef/>
+      <HookRefCounter/> */}
+
+      <DocTitleOne/>
+      <DocTitleTwo/>
     </div>
   )
 }
