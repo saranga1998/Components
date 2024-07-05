@@ -30,6 +30,8 @@ import ClassCounterRef from './Components/UseRefhook/ClassCounterRef'
 import HookRefCounter from './Components/UseRefhook/HookRefCounter'
 import DocTitleOne from './Components/CustomHook/DocTitleOne'
 import DocTitleTwo from './Components/CustomHook/DocTitleTwo'
+import CustomCounter from './Components/CustomHook/CustomCounter'
+import CustomCounterTwo from './Components/CustomHook/CustomCounterTwo'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -100,8 +102,11 @@ function App() {
       {/* <ClassCounterRef/>
       <HookRefCounter/> */}
 
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      {/* <DocTitleOne/>
+      <DocTitleTwo/> */}
+
+      <CustomCounter/>
+      <CustomCounterTwo/>
     </div>
   )
 }
