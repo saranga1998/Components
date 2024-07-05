@@ -32,6 +32,7 @@ import DocTitleOne from './Components/CustomHook/DocTitleOne'
 import DocTitleTwo from './Components/CustomHook/DocTitleTwo'
 import CustomCounter from './Components/CustomHook/CustomCounter'
 import CustomCounterTwo from './Components/CustomHook/CustomCounterTwo'
+import CustomForm from './Components/CustomHook/CustomForm'
 
 export const UserContext = React.createContext()
 export const RoleContext = React.createContext()
@@ -105,8 +106,10 @@ function App() {
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
 
-      <CustomCounter/>
-      <CustomCounterTwo/>
+      {/* <CustomCounter/>
+      <CustomCounterTwo/> */}
+
+      <CustomForm/>
     </div>
   )
 }
